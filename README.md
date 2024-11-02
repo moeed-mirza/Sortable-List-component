@@ -20,5 +20,5 @@ To use the sortable component in your project, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/sortable-component-list.git
+git clone https://github.com/yourusername/sortable-list-component.git
 cd sortable-component-list
