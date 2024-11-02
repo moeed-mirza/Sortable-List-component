@@ -1,0 +1,65 @@
+/* Use @import directive to import fonts here */
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(224, 226, 227);
+}
+body h1{
+  text-align: center;
+  color: rgb(6, 6, 163);
+}
+.skills-selection{
+  background-color: rgb(250, 248, 248);
+  box-shadow: 0 0 30px rgb(146, 146, 146);
+  margin: 20px;
+  width: 500px;
+  border-radius: 10px ;
+  padding: 2rem;
+
+}
+.section select{
+ outline: none;
+ font-size: 20px;
+}
+.skill-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill-selection{
+  margin: 5px;
+  font-size: 20px;
+  border: 1 px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgb(178, 178, 178);
+  font-weight: 500;
+  cursor: pointer;
+  width: 250px;
+}
+.skills-selection select::hover{
+ color: yellow;
+}
+select:focus {
+  outline: none;
+  border-color: #082b6d;
+  background-color: #0a1d5d;
+  color: #eeeeee;
+}
+.selected {
+  background-color: #0f357d; 
+  color: white;
+}
+/* Suggested Skills */
+.suggested-skills {
+  text-align: initial;
+  cursor: pointer;
+
+}
+.suggested-skills li{
+  list-style: none;
+  margin: 15px;
+  color: rgb(139, 139, 139);
+}
+.suggested-skills h3{
+  color: rgb(2, 14, 124);
+}
